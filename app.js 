@@ -1,0 +1,16 @@
+var pronoun = ['the','our'];
+  var adj = ['great', 'big' ];
+  var noun = ['jogger','racoon'];
+  function randGen() {
+              return Math.floor(Math.random() * 3);
+            }
+
+            function sentence() {
+              var [rand1] = Math.floor(Math.random() * 3);
+              var [rand2] = Math.floor(Math.random() * 3);
+              var [rand3] = Math.floor(Math.random() * 3);
+     var content = [rand1] + [rand2]  + [rand3]            
+            };
+            sentence();
+  
+  
